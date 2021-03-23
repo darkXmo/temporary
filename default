@@ -3,8 +3,8 @@ server {
     server_name bxmoback.top;
     root html;
     index index.html index.htm;
-    ssl_certificate cert/cert-file-name.pem;
-    ssl_certificate_key cert/cert-file-name.key;
+    ssl_certificate cert/5370296_bxmoback.top.pem;
+    ssl_certificate_key cert/5370296_bxmoback.top.key;
     ssl_session_timeout 5m;
     ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
     #表示使用的加密套件的类型。
